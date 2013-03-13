@@ -64,7 +64,7 @@ public class server {
 				handlers.add(hand);
 				hand.start();
 				hand.run();
-				hand.sendMessage("hello");
+			//	hand.sendMessage("hello");
 				}
 			}
 		catch (IOException e) {
@@ -88,6 +88,17 @@ public class server {
 		}
 	} // end of closeDown();
 	
+	public void listenEcho(){
+		try{
+			
+			
+		}	
+		catch(IOException e){
+			
+		}
+		
+		
+	}
 	
 	
 	// globals: UUID and name of the echo service
